@@ -34,7 +34,8 @@ The directory tree should at this point look like: <br/>
     - make_class_folders.py
     - sort_data_by_folders.py
     - sort_data_by_folder_no_dup.py
-This will set up the data in sorted folders, necessary for the project, the directory tree should now be:
+This will set up the data in sorted folders, necessary for the project. <br/>
+The updated directory tree: <br/>
 | <br/>
 |───DEVKitArt <br/>
 | <br/>
@@ -42,11 +43,16 @@ This will set up the data in sorted folders, necessary for the project, the dire
 |   |───data_by_class <br/>
 |   |───data_by_class_no_dup <br/>
 |   |───test_folder <br/>
-|       |───test <br/>
+|   |   | <br/>
+|   |   |───test <br/>
 |   |───train_folder <br/>
-|       |───train <br/>
+|   |   | <br/>
+|   |   |───train <br/>
+|   |    <br/>
 |   |───val_folder <br/>
-|       |───val <br/>
+|   |   | <br/>
+|   |   |───val <br/>
+| <br/>
 |───main    <--- the project repository <br/>
 | <br/>
 ...
