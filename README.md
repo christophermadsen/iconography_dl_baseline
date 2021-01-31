@@ -35,7 +35,7 @@ The directory tree should at this point look like: <br/>
     - seclude_img.py
     - make_class_folders.py
     - sort_data_by_folders.py
-    - sort_data_by_folder_no_dup.py
+    - sort_data_by_folder_no_dup.py <br/>
 This will set up the data in sorted folders, necessary for the project. <br/>
 The updated directory tree: <br/>
 ```
