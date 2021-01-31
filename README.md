@@ -3,7 +3,7 @@
 
 This repository contains the codebase for the thesis "An Explainable Deep Learning Baseline for Iconography Research in Artworks" written by Christopher Buch Madsen while attending the Bachelor of AI at the University of Amsterdam. The thesis was delivered 29 January, 2021.
 
-❮img src="thesis_github_cover.png" ❯
+<img src="thesis_github_cover.png">
 
 ### Overview of how to run the code.
 
