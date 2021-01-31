@@ -98,19 +98,19 @@ This will run the training for the amount of epochs stated in the file. Training
 After the model(s) is done training, it will save the weights and training metrics in the ```best_vgg_(model number)_strategy``` folder.
 
 ##### General Overview of the Repository
-**Folders**
-```architecture``` is the location of the model architecture files. 
-```best_vgg_(model number)__strategy``` contain the final models (weights) from the experiments of the thesis. It also contains the training metrics as well as classifications made with vgg_classify.py
-```evaluation_files``` is the destination for the CAMs extracted with vgg_cam.py and artdl_cam.py, it also contains the classifications made by the ArtDL model, and .csv files for the final predictions used for the CAMs.
-```artdl_model``` contains the weights for the ResNet50 model provided by the ArtDL project.
-```preprocessing``` contains files used for data preprocessing and creating of data folders.
-```sets``` contains text files for the training/validation/test sets and the lists of classes.
-```test-data``` contains images to be used in the example notebook
-```torch_mods``` contains files which modfiy Torch classes.
+**Folders** <br/>
+```architecture``` is the location of the model architecture files. <br/>
+```best_vgg_(model number)__strategy``` contain the final models (weights) from the experiments of the thesis. It also contains the training metrics as well as classifications made with vgg_classify.py <br/>
+```evaluation_files``` is the destination for the CAMs extracted with vgg_cam.py and artdl_cam.py, it also contains the classifications made by the ArtDL model, and .csv files for the final predictions used for the CAMs. <br/>
+```artdl_model``` contains the weights for the ResNet50 model provided by the ArtDL project. <br/>
+```preprocessing``` contains files used for data preprocessing and creating of data folders. <br/>
+```sets``` contains text files for the training/validation/test sets and the lists of classes. <br/>
+```test-data``` contains images to be used in the example notebook <br/>
+```torch_mods``` contains files which modfiy Torch classes. <br/>
 
 **Files**
-For ```artdl_cam.py, artdl_classify.py, train_vgg.py, vgg_cam.py, vgg_classify.py, eval.py``` see the descriptions above.
-```data_prep_example.ipynb``` is a notebook used for producing the preprocessing example shown in the thesis
-```training_graphs.ipynb``` is a notebook used for producing the training metrics graphs shown in the thesis.
+For ```artdl_cam.py, artdl_classify.py, train_vgg.py, vgg_cam.py, vgg_classify.py, eval.py``` see the descriptions above. <br/>
+```data_prep_example.ipynb``` is a notebook used for producing the preprocessing example shown in the thesis <br/>
+```training_graphs.ipynb``` is a notebook used for producing the training metrics graphs shown in the thesis. <br/>
 
 All rights of the ArtDL project and model go to Milani et al., their repository can be found at: https://github.com/iFede94/ArtDL see the ArtDL_README.md
