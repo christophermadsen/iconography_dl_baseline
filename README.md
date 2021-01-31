@@ -120,4 +120,5 @@ For ```artdl_cam.py, artdl_classify.py, train_vgg.py, vgg_cam.py, vgg_classify.p
 ```data_prep_example.ipynb``` is a notebook used for producing the preprocessing example shown in the thesis <br/>
 ```training_graphs.ipynb``` is a notebook used for producing the training metrics graphs shown in the thesis. <br/>
 
-All rights of the ArtDL project and model go to Milani et al., their repository can be found at: https://github.com/iFede94/ArtDL see the ArtDL_README.md
+All rights of the ArtDL project and model go to Milani et al., their repository can be found at: https://github.com/iFede94/ArtDL <br/>
+See the ArtDL_README.md
