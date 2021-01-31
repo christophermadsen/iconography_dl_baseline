@@ -21,14 +21,16 @@ http://www.artdl.org/ <br/>
 Unzip the files and place the "DEVKitArt" folder in the folder prior to this repository.
 3. Create a folder named "DataFolders" at the same destination as DEVKitArt <br/>
 The directory tree should at this point look like: <br/>
+```
+| 
+|───DEVKitArt
 | <br/>
-|───DEVKitArt <br/>
-| <br/>
-|───DataFolders <br/>
-| <br/>
-|───main    <--- the project repository <br/>
-| <br/>
+|───DataFolders 
+| 
+|───main    <--- the project repository 
+| 
 ...
+```
 4. Run the following python files from main/preprocessing consecutively:
     - seclude_img.py
     - make_class_folders.py
@@ -36,24 +38,26 @@ The directory tree should at this point look like: <br/>
     - sort_data_by_folder_no_dup.py
 This will set up the data in sorted folders, necessary for the project. <br/>
 The updated directory tree: <br/>
-| <br/>
-|───DEVKitArt <br/>
-| <br/>
-|───DataFolders <br/>
-|   |───data_by_class <br/>
-|   |───data_by_class_no_dup <br/>
-|   |───test_folder <br/>
-|   |   | <br/>
-|   |   |───test <br/>
-|   |───train_folder <br/>
-|   |   | <br/>
-|   |   |───train <br/>
-|   |    <br/>
-|   |───val_folder <br/>
-|   |   | <br/>
-|   |   |───val <br/>
-| <br/>
-|───main    <--- the project repository <br/>
-| <br/>
+```
+| 
+|───DEVKitArt 
+| 
+|───DataFolders 
+|   |───data_by_class 
+|   |───data_by_class_no_dup 
+|   |───test_folder 
+|   |   | 
+|   |   |───test 
+|   |───train_folder 
+|   |   | 
+|   |   |───train 
+|   |    
+|   |───val_folder 
+|   |   | 
+|   |   |───val 
+| 
+|───main    <--- the project repository 
+| 
 ...
+```
 5. Fourth item
