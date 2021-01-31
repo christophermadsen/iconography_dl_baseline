@@ -81,6 +81,18 @@ To classify with the ArtDL model use:
 
     python artdl_classify.py
 
+Running these scripts will save the predictions in the ```best_vgg_(model_number)_strategy``` folders for the VGG-16 model and ```evaluation_files``` folder for the ArtDL model.
 
 ##### Example Notebook
 A simple example notebook for making a classification of a single image and extracting the CAM has been provided in the jupyter notebook vgg_cam_example.ipynb, for a better overview. (Install jupyter notebook with pip install notebook, open it through the command line with "jupyter notebook" and navigate to the .ipynb provided)
+
+##### Training the Models (!!! INADVISED !!!)
+If one desires to train the VGG-16 model using one of the strategies from the thesis, it is possible through the use of the following python scripts:
+
+    python train_vgg.py
+    
+This will run the training for the amount of epochs stated in the file. Training the models with 200 epochs will take approximately 14 hours for strategy 2, and approximately 84 hours for strategy 1 and 3.
+
+After the model(s) is done training, it will save the weights and training metrics in the ```best_vgg_(model number)_strategy``` folder.
+
+##### General Overview of the Repository
