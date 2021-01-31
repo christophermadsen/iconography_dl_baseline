@@ -21,15 +21,17 @@ http://www.artdl.org/ <br/>
 Unzip the files and place the "DEVKitArt" folder in the folder prior to this repository.
 3. Create a folder named "DataFolders" at the same destination as DEVKitArt <br/>
 The directory tree should at this point look like: <br/>
-    | <br/>
-    |───DEVKitArt <br/>
-    | <br/>
-    |───DataFolders <br/>
-    | <br/>
-    |───main    <--- the project repository <br/>
-    | <br/>
+| <br/>
+|───DEVKitArt <br/>
+| <br/>
+|───DataFolders <br/>
+| <br/>
+|───main    <--- the project repository <br/>
+| <br/>
 ...
-4. Run the following python files from main
-    1. 
-    2. Indented item
+4. Run the following python files from main/preprocessing consecutively:
+    1. seclude_img.py
+    2. make_class_folders.py
+    3. sort_data_by_folders.py
+    4. sort_data_by_folder_no_dup.py
 5. Fourth item
