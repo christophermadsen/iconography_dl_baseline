@@ -62,14 +62,25 @@ The updated directory tree: <br/>
 ...
 ```
 #### Execution
-To extract the class activation mappings (CAMs) from the VGG-16 models, the following python script can be run: <br/>
+##### Class activation mappings
+To extract the class activation mappings (CAMs) for the test set with the VGG-16 models, run the following python script and answer the prompt: <br/>
 
     python vgg_cam.py
     
 To extract the CAMs from the ArtDL model, the following python script can be run: <br/>
 
     python artdl_cam.py
+    
+
+##### Classifications
+To classify the images in the test set with the VGG-16 models, run the following script and answer the prompt:
+
+    python vgg_classify.py
+
+To classify with the ArtDL model use:
+
+    python artdl_classify.py
 
 
-
-A simple example notebook for making a classification of a single image and extracting the CAM has been provided in vgg_cam_example.ipynb, for a better overview.
+##### Example Notebook
+A simple example notebook for making a classification of a single image and extracting the CAM has been provided in the jupyter notebook vgg_cam_example.ipynb, for a better overview. (Install jupyter notebook with pip install notebook, open it through the command line with "jupyter notebook" and navigate to the .ipynb provided)
