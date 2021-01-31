@@ -30,8 +30,24 @@ The directory tree should at this point look like: <br/>
 | <br/>
 ...
 4. Run the following python files from main/preprocessing consecutively:
-    1. seclude_img.py
-    2. make_class_folders.py
-    3. sort_data_by_folders.py
-    4. sort_data_by_folder_no_dup.py
+    - seclude_img.py
+    - make_class_folders.py
+    - sort_data_by_folders.py
+    - sort_data_by_folder_no_dup.py
+This will set up the data in sorted folders, necessary for the project, the directory tree should now be:
+| <br/>
+|───DEVKitArt <br/>
+| <br/>
+|───DataFolders <br/>
+|   |───data_by_class <br/>
+|   |───data_by_class_no_dup <br/>
+|   |───test_folder <br/>
+|       |───test <br/>
+|   |───train_folder <br/>
+|       |───train <br/>
+|   |───val_folder <br/>
+|       |───val <br/>
+|───main    <--- the project repository <br/>
+| <br/>
+...
 5. Fourth item
