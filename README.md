@@ -48,6 +48,7 @@ The updated directory tree: <br/>
 |   |───test_folder 
 |   |   | 
 |   |   |───test 
+|   |   
 |   |───train_folder 
 |   |   | 
 |   |   |───train 
@@ -60,4 +61,15 @@ The updated directory tree: <br/>
 | 
 ...
 ```
-5. Fourth item
+#### Execution
+To extract the class activation mappings (CAMs) from the VGG-16 models, the following python script can be run: <br/>
+
+    python vgg_cam.py
+    
+To extract the CAMs from the ArtDL model, the following python script can be run: <br/>
+
+    python artdl_cam.py
+
+
+
+A simple example notebook for making a classification of a single image and extracting the CAM has been provided in vgg_cam_example.ipynb, for a better overview.
