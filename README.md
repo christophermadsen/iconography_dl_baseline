@@ -85,6 +85,13 @@ To classify with the ArtDL model use:
 
 Running these scripts will save the predictions in the ```best_vgg_(model_number)_strategy``` folders for the VGG-16 model and ```evaluation_files``` folder for the ArtDL model.
 
+##### Evaluation Metrics
+To show the evaluation metrics for a model, run the following script and answer the prompt:
+
+    python eval.py
+    
+This will generate the confusion matrices used for precision, recall and f1-score from the thesis.
+
 ##### Example Notebooks
 A simple example notebook for making a classification of a single image and extracting the CAM has been provided in the jupyter notebook vgg_cam_example.ipynb, for a better overview. (Install jupyter notebook with pip install notebook, open it through the command line with "jupyter notebook" and navigate to the .ipynb provided)
 
