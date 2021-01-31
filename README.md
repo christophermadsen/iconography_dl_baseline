@@ -24,7 +24,7 @@ The directory tree should at this point look like: <br/>
 ```
 | 
 |───DEVKitArt
-| <br/>
+| 
 |───DataFolders 
 | 
 |───main    <--- the project repository 
