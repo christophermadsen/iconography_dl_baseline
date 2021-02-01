@@ -5,9 +5,9 @@ This repository contains the codebase for the thesis "An Explainable Deep Learni
 
 <img src="thesis_github_cover.png">
 
-### Overview of how to run the code.
+## Overview of how to run the code.
 
-#### Requirements
+### Requirements
     Python >= 3.9
     PyTorch >= 1.7.1+cu110
     Numpy
@@ -16,7 +16,7 @@ This repository contains the codebase for the thesis "An Explainable Deep Learni
     Sklearn (>= 0.24.1)
     ipynb (for examples)
     
-#### Setup
+### Setup
 1. Clone this repository.
 2. Download the ArtDL data set at: <br/>
 http://www.artdl.org/ <br/>
@@ -63,8 +63,8 @@ The updated directory tree: <br/>
 | 
 ...
 ```
-#### Execution
-**Class activation mappings**
+### Execution
+#### Class activation mappings
 To extract the class activation mappings (CAMs) for the test set with the VGG-16 models, run the following python script and answer the prompt: <br/>
 
     python vgg_cam.py
@@ -74,7 +74,7 @@ To extract the CAMs from the ArtDL model, the following python script can be run
     python artdl_cam.py
     
 
-**Classifications**
+#### Classifications
 To classify the images in the test set with the VGG-16 models, run the following script and answer the prompt:
 
     python vgg_classify.py
@@ -85,17 +85,17 @@ To classify with the ArtDL model use:
 
 Running these scripts will save the predictions in the ```best_vgg_(model_number)_strategy``` folders for the VGG-16 model and ```evaluation_files``` folder for the ArtDL model.
 
-**Evaluation Metrics**
+#### Evaluation Metrics
 To show the evaluation metrics for a model, run the following script and answer the prompt:
 
     python eval.py
     
 This will generate the confusion matrices used for precision, recall and f1-score from the thesis.
 
-**Example Notebooks**
+#### Example Notebooks
 A simple example notebook for making a classification of a single image and extracting the CAM has been provided in the jupyter notebook vgg_cam_example.ipynb, for a better overview. (Install jupyter notebook with pip install notebook, open it through the command line with "jupyter notebook" and navigate to the .ipynb provided)
 
-**Training the Models (Not Necessary)**
+#### Training the Models (Not Necessary)
 If one desires to train the VGG-16 model using one of the strategies from the thesis, it is possible through the use of the following python scripts:
 
     python train_vgg.py
@@ -104,8 +104,8 @@ This will run the training for the amount of epochs stated in the file. Training
 
 After the model(s) is done training, it will save the weights and training metrics in the ```best_vgg_(model number)_strategy``` folder.
 
-#### General Overview of the Repository**
-##### Folders <br/>
+### General Overview of the Repository**
+#### Folders <br/>
 ```architecture``` is the location of the model architecture files. <br/>
 ```best_vgg_(model number)__strategy``` contain the final models (weights) from the experiments of the thesis. It also contains the training metrics as well as classifications made with vgg_classify.py <br/>
 ```evaluation_files``` is the destination for the CAMs extracted with vgg_cam.py and artdl_cam.py, it also contains the classifications made by the ArtDL model, and .csv files for the final predictions used for the CAMs. <br/>
@@ -115,7 +115,7 @@ After the model(s) is done training, it will save the weights and training metri
 ```test-data``` contains images to be used in the example notebook <br/>
 ```torch_mods``` contains files which modfiy Torch classes. <br/>
 
-##### Files <br/>
+#### Files <br/>
 For ```artdl_cam.py, artdl_classify.py, train_vgg.py, vgg_cam.py, vgg_classify.py, eval.py``` see the descriptions above. <br/>
 ```data_prep_example.ipynb``` is a notebook used for producing the preprocessing example shown in the thesis <br/>
 ```training_graphs.ipynb``` is a notebook used for producing the training metrics graphs shown in the thesis. <br/>
