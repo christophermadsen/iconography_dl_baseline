@@ -115,7 +115,7 @@ After the model(s) is done training, it will save the weights and training metri
 ```test-data``` contains images to be used in the example notebook <br/>
 ```torch_mods``` contains files which modfiy Torch classes. <br/>
 
-**Files**
+**Files** <br/>
 For ```artdl_cam.py, artdl_classify.py, train_vgg.py, vgg_cam.py, vgg_classify.py, eval.py``` see the descriptions above. <br/>
 ```data_prep_example.ipynb``` is a notebook used for producing the preprocessing example shown in the thesis <br/>
 ```training_graphs.ipynb``` is a notebook used for producing the training metrics graphs shown in the thesis. <br/>
