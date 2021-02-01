@@ -104,8 +104,8 @@ This will run the training for the amount of epochs stated in the file. Training
 
 After the model(s) is done training, it will save the weights and training metrics in the ```best_vgg_(model number)_strategy``` folder.
 
-### General Overview of the Repository**
-#### Folders <br/>
+## General Overview of the Repository
+### Folders <br/>
 ```architecture``` is the location of the model architecture files. <br/>
 ```best_vgg_(model number)__strategy``` contain the final models (weights) from the experiments of the thesis. It also contains the training metrics as well as classifications made with vgg_classify.py <br/>
 ```evaluation_files``` is the destination for the CAMs extracted with vgg_cam.py and artdl_cam.py, it also contains the classifications made by the ArtDL model, and .csv files for the final predictions used for the CAMs. <br/>
@@ -115,7 +115,7 @@ After the model(s) is done training, it will save the weights and training metri
 ```test-data``` contains images to be used in the example notebook <br/>
 ```torch_mods``` contains files which modfiy Torch classes. <br/>
 
-#### Files <br/>
+### Files <br/>
 For ```artdl_cam.py, artdl_classify.py, train_vgg.py, vgg_cam.py, vgg_classify.py, eval.py``` see the descriptions above. <br/>
 ```data_prep_example.ipynb``` is a notebook used for producing the preprocessing example shown in the thesis <br/>
 ```training_graphs.ipynb``` is a notebook used for producing the training metrics graphs shown in the thesis. <br/>
