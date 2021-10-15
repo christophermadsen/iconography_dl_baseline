@@ -100,7 +100,7 @@ If one desires to train the VGG-16 model using one of the strategies from the th
 
     python train_vgg.py
     
-This will run the training for the amount of epochs stated in the file. Training the models with 200 epochs will take approximately 14 hours for strategy 2, and approximately 84 hours for strategy 1 and 3.
+This will run the training for the amount of epochs stated in the file. Training the models with 200 epochs will take approximately 14 hours for strategy 2, and approximately 84 hours for strategy 1 and 3 (on computer architecture similar to the one used in the thesis).
 
 After the model(s) is done training, it will save the weights and training metrics in the ```best_vgg_(model number)_strategy``` folder.
 
